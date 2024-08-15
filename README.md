@@ -1,8 +1,22 @@
-# React + Vite
+# Bank Transactions App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This React app displays a list of bank transactions and allows users to add new transactions and filter through them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- View a table of transactions.
+- Add new transactions using a form.
+- Filter transactions by description.
+
+## Setup
+
+1. Clone the repository.
+2. Install dependencies: `npm install`
+3. Start the JSON server: `npx json-server --watch db.json --port 8001`
+4. Run the React app: `npm run dev`
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
